@@ -5,10 +5,11 @@ import Draw from './draw.js'
 class MainDraw extends Component {
 
   state = {
-    draw1: ['Soccer Punch', 'Orły Wrocław', 'Alkopoligamia','Przyjaciele z Boiska', 'Fc Śródmieście Team'],
-    draw2: ['Spartan Błonie', 'Sancho Panza', 'FC Turbojulita','Kłosdipns', 'Red Devils Wrocław'],
-    draw3: ['LGW Stare Miasto', 'Fuga Team', 'Radosny Rabarbar','Tiki-Laga', 'STL&LS'],
-    draw4: ['Reqiro CF', 'księżniczki szczepin', 'PD WildBoars','Wataha Alfa', 'Wrocław Roosters','Kozanów Team'],
+    draw1: ['Soccer Punch', 'Orły Wrocław', 'Alkopoligamia','Przyjaciele z Boiska'],
+    draw2: ['Fc Śródmieście Team','Spartan Błonie', 'Sancho Panza', 'FC Turbojulita'],
+    draw3: ['Kłosdipns', 'Red Devils Wrocław','LGW Stare Miasto','Fuga Team'],
+    draw4: ['Radosny Rabarbar','Tiki-Laga', 'STL&LS','Reqiro CF'],
+    draw5: ['księżniczki szczepin', 'PD WildBoars','Wataha Alfa', 'Wrocław Roosters','Kozanów Team'],
     poolA: [],
     poolB: [],
     poolC: [],
@@ -128,6 +129,29 @@ class MainDraw extends Component {
           draw4: this.state.draw4.filter(teamName => teamName !== team),
         })
       }
+    } else if(this.state.draw5.length!==0){
+      const team = this.state.draw5[Math.floor(Math.random()*this.state.draw5.length)];
+      if(group===1){
+        this.setState({
+          poolA: [...this.state.poolA,team],
+          draw5: this.state.draw5.filter(teamName => teamName !== team),
+        })
+      } else if (group===2){
+        this.setState({
+          poolB: [...this.state.poolB,team],
+          draw5: this.state.draw5.filter(teamName => teamName !== team),
+        })
+      } else if (group===3){
+        this.setState({
+          poolC: [...this.state.poolC,team],
+          draw5: this.state.draw5.filter(teamName => teamName !== team),
+        })
+      } else if (group===4){
+        this.setState({
+          poolD: [...this.state.poolD,team],
+          draw5: this.state.draw5.filter(teamName => teamName !== team),
+        })
+      }
     }
 
   }
@@ -144,6 +168,7 @@ class MainDraw extends Component {
           <Draw index={2} group={this.state.draw2} name={"Koszyk"}/>
           <Draw index={3} group={this.state.draw3} name={"Koszyk"}/>
           <Draw index={4} group={this.state.draw4} name={"Koszyk"}/>
+          <Draw index={5} group={this.state.draw5} name={"Koszyk"}/>
         </Grid.Row>
         </Grid>
 
