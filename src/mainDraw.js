@@ -9,7 +9,7 @@ class MainDraw extends Component {
     draw2: ['Fc Śródmieście Team','Spartan Błonie', 'Sancho Panza', 'FC Turbojulita'],
     draw3: ['Kłosdipns', 'Red Devils Wrocław','LGW Stare Miasto','Fuga Team'],
     draw4: ['Radosny Rabarbar','Tiki-Laga', 'STL&LS','Reqiro CF'],
-    draw5: ['księżniczki szczepin', 'PD WildBoars','Wataha Alfa', 'Wrocław Roosters','Kozanów Team'],
+    draw5: ['PD WildBoars','Wataha Alfa', 'Wrocław Roosters','Kozanów Team'],
     poolA: [],
     poolB: [],
     poolC: [],
