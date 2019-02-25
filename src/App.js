@@ -1,26 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { Route, Switch } from 'react-router-dom';
+import MainDraw from './mainDraw.js'
+import HomePage from './homePage.js'
+import CreatePools from './createPools.js'
 class App extends Component {
+
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+          <div>
+            <Switch>
+              <Route exact path='/' component={MainDraw}/>
+              <Route path='/home' component={HomePage}/>
+              <Route path='/create' component={CreatePools}/>
+            </Switch>
+          </div>
+
     );
   }
 }
