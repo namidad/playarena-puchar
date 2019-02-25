@@ -10,9 +10,10 @@ class App extends Component {
     return (
           <div>
             <Switch>
-              <Route exact path='/' component={MainDraw}/>
-              <Route path='/home' component={HomePage}/>
-              <Route path='/create' component={CreatePools}/>
+              <Route exact path='https://namidad.github.io/playarena-puchar/' component={MainDraw}/>
+              <Route path='https://namidad.github.io/playarena-puchar/home' component={HomePage}/>
+              <Route path='https://namidad.github.io/playarena-puchar/create' component={CreatePools}/>
+              <Route path='https://namidad.github.io/playarena-puchar/wroclaw' component={MainDraw}/>
             </Switch>
           </div>
 
