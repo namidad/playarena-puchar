@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/playarena-puchar/static/css/main.74ea9d8d.chunk.css"
   },
   {
-    "revision": "a54a0d5555bb3e2b3061b9e5cbfef621",
+    "revision": "a009661ebd437f0f5b1db69cee162693",
     "url": "/playarena-puchar/index.html"
   }
 ];

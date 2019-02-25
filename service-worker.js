@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/playarena-puchar/precache-manifest.a34cedf856e7b18533f61f1c7cc3d698.js"
+  "/playarena-puchar/precache-manifest.d4f9235b5a33823fd33ec6a64c7a47bb.js"
 );
 
 workbox.clientsClaim();
