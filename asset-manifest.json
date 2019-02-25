@@ -1,14 +1,13 @@
 {
-  "main.css": "/playarena-puchar/static/css/main.b5ebfb57.chunk.css",
-  "main.js": "/playarena-puchar/static/js/main.8f7552cb.chunk.js",
-  "main.js.map": "/playarena-puchar/static/js/main.8f7552cb.chunk.js.map",
+  "main.css": "/playarena-puchar/static/css/main.74ea9d8d.chunk.css",
+  "main.js": "/playarena-puchar/static/js/main.73207a59.chunk.js",
+  "main.js.map": "/playarena-puchar/static/js/main.73207a59.chunk.js.map",
   "runtime~main.js": "/playarena-puchar/static/js/runtime~main.3a154226.js",
   "runtime~main.js.map": "/playarena-puchar/static/js/runtime~main.3a154226.js.map",
-  "static/js/2.5bf9b2cd.chunk.js": "/playarena-puchar/static/js/2.5bf9b2cd.chunk.js",
-  "static/js/2.5bf9b2cd.chunk.js.map": "/playarena-puchar/static/js/2.5bf9b2cd.chunk.js.map",
+  "static/js/2.cb600af2.chunk.js": "/playarena-puchar/static/js/2.cb600af2.chunk.js",
+  "static/js/2.cb600af2.chunk.js.map": "/playarena-puchar/static/js/2.cb600af2.chunk.js.map",
   "index.html": "/playarena-puchar/index.html",
-  "precache-manifest.f74259d466eaec4426e0f6e72b0cf894.js": "/playarena-puchar/precache-manifest.f74259d466eaec4426e0f6e72b0cf894.js",
+  "precache-manifest.f729db0d1b0c254cf4a1fae04f8f2c9a.js": "/playarena-puchar/precache-manifest.f729db0d1b0c254cf4a1fae04f8f2c9a.js",
   "service-worker.js": "/playarena-puchar/service-worker.js",
-  "static/css/main.b5ebfb57.chunk.css.map": "/playarena-puchar/static/css/main.b5ebfb57.chunk.css.map",
-  "static/media/logo.svg": "/playarena-puchar/static/media/logo.5d5d9eef.svg"
+  "static/css/main.74ea9d8d.chunk.css.map": "/playarena-puchar/static/css/main.74ea9d8d.chunk.css.map"
 }
